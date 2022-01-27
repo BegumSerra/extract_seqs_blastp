@@ -10,27 +10,28 @@ This script is for extracting sequences in fasta format from blastp hit file. It
 	
 ## 👾 Technologies
 Project is created with:
-* pandas 
+* pandas=1.3.4
+* python=3.10.0  
+* biopython=1.79 
 * sys
 * argparse
 * Bio 
 * SeqIO
 
 ## 🚀 Setup 
-To run this project, you need to write input and output :
+Run this script with [extract_seqs_blastp.py](extract_seqs_blastp.py) and write you need to write input and output in the command line:
 
-#input
+### input
 * blast or diamond file (tab formatted)
-* proteomefile 
+* proteome file 
 
-#output
+### output
 * fasta file with annot 
 * fasta file with ids
 
 ```
 $python extract_seqs_blastp.py blastfile proteomefile fasta_annot fasta_ids
 ```
-
 
 ## 🧚🏼 Author
 Begüm Serra Büyüktarakçı 
