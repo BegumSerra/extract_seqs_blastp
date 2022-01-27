@@ -1,4 +1,4 @@
-# 🌳 Extract sequences from blastp
+# 🧬 Extract sequences from blastp
 
 ## Table of contents
 * [General info](#general-info)
